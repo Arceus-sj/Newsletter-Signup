@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Sign Up</title>
 </head>
 <body>
+    <img src="image/logo.png" alt="">
     <h2>LeaF <span>NEWS</span></h2>
     <div class="container">
+
         <form action="/" method="post">
-            <div class="user-name">
-                <label for="userName">User Name</label><br>
-                <input type="text" name="userName" id="user-name">
+
+            <div class="first-name">
+                <label for="first-name">First Name</label><br>
+                <input type="text" name="first-name" id="first-name">
             </div>
             
-            <div class="password">
-                <label for="password">Password</label><br>
-                <input type="password" name="password" id="password">
+            <div class="last-name">
+                <label for="last-name">Last Name</label><br>
+                <input type="text" name="last-name" id="last-name">
             </div>
-            
-            <div class="radio">
-                <input type="radio" name="remember" id="remember">
+<!--             
+            <div class="check">
+                <input type="checkbox" name="remember" id="remember">
                 <label for="remember">Remember me</label>
+            </div> -->
+            <div class="email">
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="email">
             </div>
-            
-            <button type="submit" id="submit">Sign in</button>
+                       
+            <div class="btn">
+                <button type="submit" id="submit">Sign Me Up</button>
+            </div>
         </form>
     </div>
  
